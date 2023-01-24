@@ -9,12 +9,12 @@ namespace DataStructures
 
         static void Main()
         {
-            var test = new StackInt();
+            var test = new Stack<int>();
             Requests(test);
             Console.WriteLine("Ёмкость стэка: " + test.Count + " Последнее число: " + TestPeek);
         }
 
-        private static void Requests(StackInt test)
+        private static void Requests(Stack<int> test)
         {
             bool flag = true;
             while (flag)
@@ -61,7 +61,7 @@ namespace DataStructures
                     }
                     case 2:
                     {
-                        Console.WriteLine($"Метод Pop! Число: {test.LastNumber} удалено!\n");
+                        Console.WriteLine($"Метод Pop! Число: {test.LastItem} удалено!\n");
                         TestPop = test.Pop();
                         break;
                     }
@@ -87,34 +87,34 @@ namespace DataStructures
     }
 
     // реализация стека
-    public class StackInt
+    public class Stack<T>
     {
-        private List<int> _numbers = new List<int>(10);
+        private List<int> _items = new List<int>(10);
         public int Count;
-        public int LastNumber;
+        public int LastItem;
 
         public void Push(int number)
         {
-            _numbers.Add(number);
-            LastNumber = number;
-            Count = _numbers.Count;
+            _items.Add(number);
+            LastItem = number;
+            Count = _items.Count;
         }
 
         public int Pop()
         {
-            var thisNumber = LastNumber;
-            _numbers.Remove(LastNumber);
-            LastNumber = _numbers[^1];
-            Count = _numbers.Count;
+            var thisItem = LastItem;
+            _items.Remove(LastItem);
+            LastItem = _items[^1];
+            Count = _items.Count;
 
-            return thisNumber;
+            return thisItem;
         }
 
         public int Peek()
         {
-            var thisNumber = LastNumber;
+            var thisItem = LastItem;
 
-            return thisNumber;
+            return thisItem;
         }
     }
 }

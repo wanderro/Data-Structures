@@ -8,12 +8,12 @@ namespace DataStructures
 
         static void Main()
         {
-            var test = new ListInt();
+            var test = new List<int>();
             Requests(test);
             Console.WriteLine("Ёмкость стэка: " + test.GetCapacity() + " Количество чисел: " + test.GetCount());
         }
 
-        private static void Requests(ListInt test)
+        private static void Requests(List<int> test)
         {
             bool flag = true;
             while (flag)
@@ -69,16 +69,16 @@ namespace DataStructures
     }
 
     // реализация динамического массива
-    public class ListInt
+    public class List<T>
     {
         private const int DEFAULT_COUNT_ELEMENTS = 4;
 
         private int[] _array;
-        private int _indexOfNumber = 0;
+        private int _indexOfItem = 0;
         private int _capacity = 4;
         private int _count = 0;
 
-        public ListInt()
+        public List()
         {
             _array = new int[DEFAULT_COUNT_ELEMENTS];
         }
@@ -91,8 +91,8 @@ namespace DataStructures
                 Resize();
             }
 
-            _array[(_indexOfNumber)] = number;
-            _indexOfNumber++;
+            _array[(_indexOfItem)] = number;
+            _indexOfItem++;
         }
 
         private void Resize()
