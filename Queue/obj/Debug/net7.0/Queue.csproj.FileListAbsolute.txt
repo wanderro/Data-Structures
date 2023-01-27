@@ -1,0 +1,15 @@
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\bin\Debug\net7.0\Queue.exe
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\bin\Debug\net7.0\Queue.deps.json
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\bin\Debug\net7.0\Queue.runtimeconfig.json
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\bin\Debug\net7.0\Queue.dll
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\bin\Debug\net7.0\Queue.pdb
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.csproj.AssemblyReference.cache
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.AssemblyInfoInputs.cache
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.AssemblyInfo.cs
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.csproj.CoreCompileInputs.cache
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.dll
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\refint\Queue.dll
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.pdb
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\Queue.genruntimeconfig.cache
+C:\Users\Professional\RiderProjects\Data-Structures\Queue\obj\Debug\net7.0\ref\Queue.dll
